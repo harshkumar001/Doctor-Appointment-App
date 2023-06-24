@@ -1,0 +1,28 @@
+{
+  "name": "doc-appoinment-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client1": "npm start --prefix ../client1 ",
+    "dev": "concurrently \"npm start\" \"npm run client1\""
+  },
+  "keywords": [],
+  "author": "harshkumar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.11.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "description": ""
+}
